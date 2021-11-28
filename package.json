@@ -1,0 +1,33 @@
+{
+  "name": "supabase-nodejs-learnings",
+  "version": "1.0.0",
+  "description": "Learning Supabase with NodeJS integration ! Come lets learn",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsvigneshkanna/Supabase-Nodejs-Learnings"
+  },
+  "keywords": [
+    "supabase",
+    "nodejs"
+  ],
+  "author": "jsvigneshkanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsvigneshkanna/Supabase-Nodejs-Learnings/issues"
+  },
+  "homepage": "https://github.com/jsvigneshkanna/Supabase-Nodejs-Learnings#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.28.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node": "^17.1.0",
+    "nodemon": "^2.0.15"
+  }
+}

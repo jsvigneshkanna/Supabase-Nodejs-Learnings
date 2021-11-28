@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Supabase Learnings</title>
+  </head>
+  <body>
+    <div class="header-container">
+      <img src="./supabase-logo.png" alt="supabase-logo" />
+      <h2>supabase learnings</h2>
+    </div>
+    <div class="post-container">
+      <!-- <form action="/increment" method="post">
+        <button type="submit">increment</button>
+      </form>
+      <form action="/decrement" method="post">
+        <button type="submit">decrement</button>
+      </form> -->
+
+      <h3>Posting blogs details to the supabase database</h3>
+      <form action="/post/blogs" method="post">
+        <label for="blog-name">Blog Name</label>
+        <input type="text" name="blogName" id="blog-name" required />
+        <label for="author">author Name</label>
+        <input type="text" name="author" id="author" required />
+        <label for="likes">likes</label>
+        <input type="text" name="likes" id="likes" required />
+        <button type="submit">click me to post blog datas</button>
+      </form>
+    </div>
+    <div class="get-container">
+      <form action="/get/blogs" method="post">
+        <h3>Enter Blog name or Author name to get blog details</h3>
+        <label for="get-blog-name">Blog Name</label>
+        <input type="text" name="getBlogName" id="get-blog-name" />
+        <label for="get-author">author Name</label>
+        <input type="text" name="getAuthor" id="get-author" />
+        <button type="submit">click me to get blog datas</button>
+      </form>
+    </div>
+  </body>
+</html>
